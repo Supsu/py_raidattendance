@@ -1,4 +1,4 @@
-Raid attendance parser by Supsu
+Raid attendance parser by Teemu "Supsu" Laakso
 Written using Python 3.6.1
 
 This little software uses www.warcraftlogs.com API v1 and
