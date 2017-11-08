@@ -159,7 +159,10 @@ def main():
             if debug:
                 print("inside purge handler")
             #purge database
-            ptype = argv[iarg+1]
+            try:
+                ptype = argv[iarg+1]
+            except IndexError:
+                ptype = "kamikazesquirrel"
             ifall = False
             if ptype == "all":
                 ifall = True
