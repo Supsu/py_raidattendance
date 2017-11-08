@@ -1,0 +1,11 @@
+wclog = "APIKEYHERE" #your API key from warcraftlogs, enclosed in quotation marks
+dbname = "data.json" #name of the database file
+debug = False #True or False
+outputname = "raidpy.html" #filename for the output html
+attbp1 = 95 #considered good in color coding
+attbp2 = 80 #... mid in color coding
+attbp3 = 66 #... low in color coding
+wp_guild = "Pulumafia" #guild name ("Method", "Random+Guild+Name") where spaces are replaced with +
+wp_realm = "stormscale" #realm as known by wowprogress (stormscale, sen-jin, tarren-mill, lightning-s-blade) enclosed in quotation marks
+wp_region = "eu" #region
+showloglist = True #True if you want html to contain a list of known log ids, False if not
